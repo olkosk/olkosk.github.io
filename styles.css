@@ -1,0 +1,282 @@
+/* Fonttien tuonti */
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+
+.gowun-batang-regular {
+  font-family: "Gowun Batang", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gowun-batang-bold {
+  font-family: "Gowun Batang", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.dongle-light {
+  font-family: "Dongle", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.dongle-regular {
+  font-family: "Dongle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dongle-bold {
+  font-family: "Dongle", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+/* Yleiset, asettelut */
+
+body {
+    margin: 0px;
+}
+
+header {
+    border-bottom: 1px;
+    padding: 0px;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+.projektit p, .yhteys p {
+    margin: 0 8%;
+}
+
+.yhteys {
+    margin: 0 8%;
+}
+
+.projekti1 {
+    margin: 0 8%;
+}
+
+
+/* Fontit yms */
+
+
+.intro a {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    color: #19427D;
+    font-family: "Gowun Batang",serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+.intro {
+    margin-left: 9%;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+.intro p {
+    margin-left: 14%;
+}
+
+.wrapper {
+    padding: 0px;
+    gap: 0rem;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+p {
+    padding: 20px;
+}
+
+strong {
+    color:#19427D;
+}
+
+p, input, .container {
+    font-family: "Dongle", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+
+}
+
+hr {
+    margin: 20px 10%;
+    margin
+}
+
+
+/* Above the fold */
+
+.vuori {
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+    vertical-align: middle;
+    margin-right: 6%;
+}
+
+.wrapper {
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+}
+
+.intro {
+    flex: 1;
+}
+
+
+/* Navigointi */
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 10%;
+}
+
+li, a {
+    text-decoration: none;
+    font-family: "Dongle", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #19427D;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #19427D;
+    border-bottom: 3px solid #19427D;
+}
+
+
+/* Kuvat */
+
+.yhteyskuva {
+    height: auto;
+    max-width: 60%;
+    border-radius: 8px;
+
+}
+
+.projektikuva {
+    height: auto;
+    max-width: 30%;
+    
+}
+
+.projektikuvake {
+    float: left;
+    width: 50%;
+    padding: 5px; 
+}
+
+
+/* Yhteydenotto-lomake */
+
+.container {
+    max-width: 80%;
+    margin: auto;
+
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: #DDDDDD;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #19427D;
+}
+
+
+/* Footer */
+footer {
+    display: block;
+    clear: both;
+    background-color: lightgray;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Media queryt */
+
+@media only screen and (max-width: 787px) {
+    .vuori {
+        display: none;
+    }
+    .intro {
+        margin: 0px;
+    }
+    .projektikuvake {
+        clear:both;
+        margin: 0 25%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .isotsikko {
+        margin-right: 44%;
+    }
+}
+
