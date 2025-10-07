@@ -121,7 +121,7 @@ strong {
     color:#19427D;
 }
 
-p, input, .container {
+p, input, .container, textarea {
     font-family: "Dongle", sans-serif;
     font-size: 22px;
     font-weight: 400;
@@ -283,6 +283,7 @@ footer {
         margin-right: 44%;
     }
 }
+
 
 
 
