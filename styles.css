@@ -44,7 +44,7 @@
 
 /* Yleiset, asettelut */
 
-p a {
+.linkalleviivaus {
     text-decoration: underline;
 }
 
@@ -283,6 +283,7 @@ footer {
         margin-right: 44%;
     }
 }
+
 
 
 
