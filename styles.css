@@ -90,10 +90,6 @@ h1 {
     font-size: 52px;
 }
 
-.intro p {
-    margin-left: 14%;
-}
-
 .wrapper {
     padding: 0px;
     gap: 0rem;
@@ -273,5 +269,6 @@ footer {
         margin-right: 44%;
     }
 }
+
 
 
