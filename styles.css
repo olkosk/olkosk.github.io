@@ -90,12 +90,6 @@ h1 {
     font-size: 52px;
 }
 
-.intro {
-    margin-left: 9%;
-    margin-right: 0px;
-    padding-right: 0px;
-}
-
 .intro p {
     margin-left: 14%;
 }
@@ -279,4 +273,5 @@ footer {
         margin-right: 44%;
     }
 }
+
 
