@@ -44,6 +44,10 @@
 
 /* Yleiset, asettelut */
 
+p a {
+    text-decoration: underline;
+}
+
 body {
     margin: 0px;
 }
@@ -279,6 +283,7 @@ footer {
         margin-right: 44%;
     }
 }
+
 
 
 
